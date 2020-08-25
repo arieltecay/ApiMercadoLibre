@@ -1,21 +1,11 @@
 import React, {Component} from 'react';
-class tasks extends Component{
-    render (){
-        
-        return (
-            <div>
-                {this.props.tasks.map (e=> 
-                    <div key = {e.id}>
-                        <div>{e.tittle}</div>
-                        <div>{e.description}</div>
-                        <div>{e.id}</div>
-                        <div>{e.done}</div>
-                    </div>
-                    
-                    
-                )}
-            </div>
-        )       
+import Task from './Task'
+
+class Tasks extends Component{
+    render (){        
+        // console.log(this.props.tasks.map (e => e.id));
+        return this.props.tasks.map(task => <Task task = {task}/>)
+              
     }
 }
-export default tasks
+export default Tasks;

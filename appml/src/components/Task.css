@@ -1,0 +1,19 @@
+.cuadro{
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    border: 3px solid;
+}
+.btn {
+    background-color: red;
+    border-radius: 2px;
+    margin: 5px;
+    align-self: flex-end;
+    color: white;
+    border-color: red;
+}
+.flexContainer{
+    display: flex;
+    justify-content: space-around;
+
+}

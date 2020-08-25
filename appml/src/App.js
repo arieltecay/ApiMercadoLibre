@@ -2,18 +2,17 @@
 import React, { useState, Component } from 'react';
 import './App.css';
 import tasks from "./sample/tasks.json"
-import Tasks from './components/tasks.js'
+import Tasks from './components/Tasks.js'
 //  console.log(tasks.map(e => e.id ));
 
-class App extends Component{  
-  
+class App extends Component{    
   state = {
     tasks: tasks
   }  
   render(){
     
     return (
-      <div className="App">
+      <div className = "App">
         <h1>Tareas a Realizar</h1>        
         <Tasks tasks = {this.state.tasks}/>        
       </div>)
