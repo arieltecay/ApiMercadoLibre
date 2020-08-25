@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+/*import React, { useState } from 'react';
 import './App.css';
 
 
@@ -8,7 +8,7 @@ import './App.css';
   )
 } */
 
-class Helloword extends React.Component{
+/* class Helloword extends React.Component{
   state = {
     show: true
   }
@@ -41,11 +41,11 @@ function App() {
       <h2><Helloword mytext = "Bienvenido a la casa"/></h2>
     </div>
   );
-}
+} */
 
 /* const App = () =>
 <div className = "App">
   <h1><div><Helloword/></div></h1> 
   <h1><div><Helloword/></div></h1>    FORMA DE CREAR CON CONSTANTE Y ARROW FUNCTION
 </div> */
-export default App;
+// export default App;
