@@ -1,8 +1,10 @@
 .cuadro{
     display: flex;
     flex-direction: column;
-    width: 250px;
-    border: 3px solid;
+    margin-top: 20px;
+    width: 250px;    
+    -webkit-box-shadow: 5px 5px 15px 5px #000000; 
+    box-shadow: 5px 5px 15px 5px #000000;
 }
 .btn {
     background-color: red;
@@ -15,5 +17,12 @@
 .flexContainer{
     display: flex;
     justify-content: space-around;
-
+}
+.titulo{
+    font: normal normal bold 16px/1 Arial, Helvetica, sans-serif;
+    color: rgba(117,2,2,1);
+    text-align: center;
+    -o-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+    text-decoration: underline;
 }
