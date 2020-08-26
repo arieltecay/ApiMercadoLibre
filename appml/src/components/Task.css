@@ -17,6 +17,7 @@
 .flexContainer{
     display: flex;
     justify-content: space-around;
+    
 }
 .titulo{
     font: normal normal bold 16px/1 Arial, Helvetica, sans-serif;

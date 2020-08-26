@@ -15,12 +15,12 @@ class Task extends Component{
          return <div style = {this.StyleCompleted()} className ="flexContainer">             
                   {                      
                      <div className = "cuadro" key = {repeat.id} >
-                         <button className = "btn">x</button> 
+                         <button className = "btn" onClick = {this.props.deleteTask.bind(this, repeat.id)}>x</button> 
                          <div className = "titulo">{repeat.tittle}</div>
                          <div>{repeat.description}</div>
                          <div>{repeat.id}</div>
                          <div>{repeat.done}  </div>
-                         <input className = "checkbox" type = "checkbox"></input>
+                         <input onChange = {this.props.checkDone.bind(this,repeat.id)} className = "checkbox" type = "checkbox"></input>
                                                 
                      </div>
                  }
